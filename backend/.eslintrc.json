@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb-base", "prettier", "plugin:prettier/recommended"],
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "no-unused-vars": ["error"],
+    "import/no-relative-packages": "off",
+    "import/prefer-default-export": "off",
+    "no-await-in-loop": "off",
+    "no-restricted-syntax": "off",
+    "import/no-extraneous-dependencies": "off",
+    "semi": ["error", "never"]
+  },
+  "ignorePatterns": ["dist/*"]
+}
