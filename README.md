@@ -38,18 +38,18 @@ yarn dev
 
 #### A. 前端部分
 
-- 使用 Nuxt.js
+- 使用 Next.js
 - 提供使用者註冊與登入
 - 登入後可以顯示該使用者的 profile
-- UI 框架不限，需要有基礎的介面
+- UI 框架使用 shadcn/ui，需要有基礎的介面
 
 #### B. 後端部分
 
-- 使用 python 或 node js express
+- 使用 node 搭配 TS express
 - 建立使用者登入 登出 註冊 API
 - 建立使用者 profile 回傳 API，需要登入後才能回傳
-- 資料庫使用 mysql，並搭配 ORM 操作資料庫
-- 登入部分前端後端可以使用 token 或 session，只要可以記錄登入狀態的方式皆可。
+- 資料庫使用 mysql，並搭配 Prisma ORM 操作資料庫
+- 登入部分前端後端使用 JWT token。
 
 #### C. 部屬部分
 
